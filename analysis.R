@@ -11,19 +11,19 @@ vowels <- read_csv(data_file, show_col_types = FALSE)
 
 explode_groups <- function(df, group_col = "GROUP"){
   df %>%
-    # Split GROUP column on commas into a list
+    # take all the vals in group column and turn them into lists called sound
     mutate(SOUND = str_split(GROUP, ",")) %>%
     
-    # Turn each element of SOUND into a separate row
+    # make each item of the list sound into a seperate row
     unnest(SOUND) %>%
     
-    # Remove whitespace around each sound ID
+    # making sure to remove white space
     mutate(SOUND = str_trim(SOUND)) %>%
     
     # Drop empty strings from trailing commas
     filter(SOUND != "") %>%
     
-    # Convert to int
+    # Convert str to int
     mutate(SOUND = as.numeric(SOUND))
 }
 
