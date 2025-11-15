@@ -4,6 +4,6 @@
 .Ruserdata
 .Vita-Project-Stats
 .Vita-Project-Stats.Rproj
-.data
+data/
 .TODO.txt
 *.Rproj
