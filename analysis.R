@@ -59,9 +59,7 @@ stimulus_merging <- function(participant_data, stimulus_data, group_col = "SOUND
   
   write.csv(merged_data, participant_data)
   
-  # if we convert all the group numbers into a list, and then iterate through that list and make a list for each number
-  # which includes the data from stimuli data, we can then convert those lists to hav each item on its own column
-  # in the exploded data csv file
+  # All the data is successfully merged!
   
   
   
