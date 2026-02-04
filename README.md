@@ -4,7 +4,7 @@ This is a short R project which takes anonymised participant csv data and uses M
 
 ## Files Included:
 
-DATA_CONVERSION.Rmd
+DATA_CONVERSION.R
 
 -   Converts raw CSV data into a matrix
 
