@@ -11,3 +11,5 @@ TODO.txt
 **/data_output/*
 !**/data/.gitkeep
 !**/data_output/.gitkeep
+src/daidone_logic.Rmd
+src/daidone_raw.Rmd
