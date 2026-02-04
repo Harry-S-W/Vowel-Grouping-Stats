@@ -56,7 +56,6 @@ if (file.exists("FCmatrix.txt")) {
   file.copy("FCmatrix.txt", "../data/FCmatrix.txt", overwrite = TRUE)
 }
 
-# 2. Copy a version to data_output so the HTML report can see it
 if (file.exists("../data/FCmatrix.txt")) {
   file.copy("../data/FCmatrix.txt", file.path(output_folder, "FCmatrix_Final.txt"), overwrite = TRUE)
 }
