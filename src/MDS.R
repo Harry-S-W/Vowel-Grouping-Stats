@@ -8,7 +8,11 @@ data_folder <- file.path(base_path, "../data")
 output_folder <- file.path(base_path, "../data_output")
 
 if (!dir.exists(data_folder)) dir.create(data_folder)
+file.create("../data/.gitkeep")
+
 if (!dir.exists(output_folder)) dir.create(output_folder)
+file.create("../data_output/.gitkeep")
+
 
 source("DATA_CONVERSION.R")
 
