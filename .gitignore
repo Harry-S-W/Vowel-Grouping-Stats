@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Vita-Project-Stats
+.Vita-Project-Stats.Rproj
+data/*
+TODO.txt
+*.Rproj
+.DS_Store
