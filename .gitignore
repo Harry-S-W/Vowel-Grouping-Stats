@@ -7,7 +7,7 @@
 TODO.txt
 *.Rproj
 .DS_Store
-../data/*
-!../data/.gitkeep
-../data_output/*
-!../data_output/.gitkeep
+**/data/*
+**/data_output/*
+!**/data/.gitkeep
+!**/data_output/.gitkeep
