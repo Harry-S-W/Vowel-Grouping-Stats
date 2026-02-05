@@ -1,4 +1,4 @@
-# FILE PULLS CODE FROM DANIEL DAIDONES WEBSITE:
+# FILE PULLS CODE FROM DANIELLE DAIDONES WEBSITE:
 # https://www.ddaidone.com/uploads/1/0/5/2/105292729/mds_analysis.rmd
 
 base_path <- dirname(rstudioapi::getActiveDocumentContext()$path)
